@@ -1,0 +1,11 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"  # localização do requirements.txt
+    schedule:
+      interval: "daily"
+    groups:
+      default:
+        patterns:
+          - "*"
